@@ -9,6 +9,7 @@
 3.Asset-->Setting-->ForwardRenderer中添加名为ToneMapRenderPassFeature的renderfeature，以启用HDR色调映射后处理
 
 项目说明：
+
 1.直接光照：平行光+多光源+阴影
 
 2.间接光照--漫反射：2.1 利用环境贴图CubeMap预计算积分获得辐照度图（Irradiance Map），然后在shader中采样
